@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D27795998C0F3CC42ACED76 /* Pods_PokemonGetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F7227770E5445DAB1494B8 /* Pods_PokemonGetter.framework */; };
 		20B9BD212180B3A50024284B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9BD202180B3A50024284B /* AppDelegate.swift */; };
 		20B9BD232180B3A50024284B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9BD222180B3A50024284B /* ViewController.swift */; };
 		20B9BD262180B3A50024284B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B9BD242180B3A50024284B /* Main.storyboard */; };
 		20B9BD282180B3A60024284B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9BD272180B3A60024284B /* Assets.xcassets */; };
 		20B9BD2B2180B3A60024284B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B9BD292180B3A60024284B /* LaunchScreen.storyboard */; };
+		20F479BA2180F9AC00091741 /* PokemonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F479B92180F9AC00091741 /* PokemonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1862A6DD106B493FDB85BF62 /* Pods-PokemonGetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGetter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGetter/Pods-PokemonGetter.debug.xcconfig"; sourceTree = "<group>"; };
 		20B9BD1D2180B3A50024284B /* PokemonGetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B9BD202180B3A50024284B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20B9BD222180B3A50024284B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		20B9BD272180B3A60024284B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20B9BD2A2180B3A60024284B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20B9BD2C2180B3A60024284B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F479B92180F9AC00091741 /* PokemonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonClass.swift; sourceTree = "<group>"; };
+		38F7227770E5445DAB1494B8 /* Pods_PokemonGetter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonGetter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A62EDAB0164504386C2F8B0 /* Pods-PokemonGetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGetter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGetter/Pods-PokemonGetter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D27795998C0F3CC42ACED76 /* Pods_PokemonGetter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				20B9BD1F2180B3A50024284B /* PokemonGetter */,
 				20B9BD1E2180B3A50024284B /* Products */,
+				9A48712845A70B215127EF02 /* Pods */,
+				C687A7D014BC61D6B1D13453 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				20B9BD272180B3A60024284B /* Assets.xcassets */,
 				20B9BD292180B3A60024284B /* LaunchScreen.storyboard */,
 				20B9BD2C2180B3A60024284B /* Info.plist */,
+				20F479B92180F9AC00091741 /* PokemonClass.swift */,
 			);
 			path = PokemonGetter;
+			sourceTree = "<group>";
+		};
+		9A48712845A70B215127EF02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1862A6DD106B493FDB85BF62 /* Pods-PokemonGetter.debug.xcconfig */,
+				3A62EDAB0164504386C2F8B0 /* Pods-PokemonGetter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C687A7D014BC61D6B1D13453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38F7227770E5445DAB1494B8 /* Pods_PokemonGetter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B9BD2F2180B3A60024284B /* Build configuration list for PBXNativeTarget "PokemonGetter" */;
 			buildPhases = (
+				ED2419B7977815BA5F16CDFA /* [CP] Check Pods Manifest.lock */,
 				20B9BD192180B3A50024284B /* Sources */,
 				20B9BD1A2180B3A50024284B /* Frameworks */,
 				20B9BD1B2180B3A50024284B /* Resources */,
+				2FA94167BD578DADC5D8DF5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FA94167BD578DADC5D8DF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGetter/Pods-PokemonGetter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGetter/Pods-PokemonGetter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2419B7977815BA5F16CDFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokemonGetter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20B9BD192180B3A50024284B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20B9BD232180B3A50024284B /* ViewController.swift in Sources */,
+				20F479BA2180F9AC00091741 /* PokemonClass.swift in Sources */,
 				20B9BD212180B3A50024284B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +353,7 @@
 		};
 		20B9BD302180B3A60024284B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1862A6DD106B493FDB85BF62 /* Pods-PokemonGetter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		20B9BD312180B3A60024284B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A62EDAB0164504386C2F8B0 /* Pods-PokemonGetter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

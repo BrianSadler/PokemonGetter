@@ -6,5 +6,9 @@ target 'PokemonGetter' do
   use_frameworks!
 
   # Pods for PokemonGetter
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'SDWebImage'
+       
 
 end
